@@ -1,0 +1,54 @@
+@import './vars.css';
+
+@font-face {
+  font-family: 'Circe';
+  src: url(./assets/fonts/circe.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Circe';
+  font-size: 1.4rem;
+  line-height: 1.25;
+  font-weight: 400;
+  width: 100vw;
+  color: var(--color-black-primary);
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+p,
+span,
+button,
+input,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}

@@ -1,0 +1,1 @@
+export { PlayersBetsFeed } from './PlayersBetsFeed';

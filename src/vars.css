@@ -1,0 +1,14 @@
+:root {
+  /* Primary Colors */
+  --color-white: #ffffff;
+  --color-black-primary: #565a65;
+  --color-orange-primary: #f3a243;
+
+  --color-gray-50: #b3b8cd;
+  --color-gray-30: #e7ecf1;
+  --color-gray-20: #ebeef8;
+  --color-gray-10: #f6f7fb;
+
+  /* Shadows */
+  --shadow-main: 0px 7px 29px 0px rgb(222 226 241 / 33%);
+}

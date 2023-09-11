@@ -1,0 +1,1 @@
+export { TotalBets } from './TotalBets';
